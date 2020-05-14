@@ -13,17 +13,17 @@ class _QuestionsState extends State<Questions> {
       'respostas': [
         {
           'texto':
-              'Teste baseado na análise da estrutura interna de um componente ou sistema',
+              'A) Teste baseado na análise da estrutura interna de um componente ou sistema',
           'pontuacao': 1
         },
         {
           'texto':
-              'Teste funcional ou não funcional sem referencia a estrutura interna do componente',
+              'B) Teste funcional ou não funcional sem referencia a estrutura interna do componente',
           'pontuacao': 0
         },
         {
           'texto':
-              'Teta o desempenho da aplicação a fim de encontrar o seu limite de processamento de dados',
+              'C) Teta o desempenho da aplicação a fim de encontrar o seu limite de processamento de dados',
           'pontuacao': 0
         },
       ]
@@ -32,16 +32,16 @@ class _QuestionsState extends State<Questions> {
       'texto': 'Quais dos testes abaixo são testes não funcionais?',
       'respostas': [
         {
-          'texto': 'Testes de desempenho/integração/usabilidade e unidade',
+          'texto': 'A) Testes de desempenho/integração/usabilidade e unidade',
           'pontuacao': 0
         },
         {
-          'texto': 'Testes de desempenho/performance/usabilidade e segurança',
+          'texto': 'B) Testes de desempenho/performance/usabilidade e segurança',
           'pontuacao': 1
         },
         {
           'texto':
-              'Testes de usabilidade/portabilidade/segurança e regressivos',
+              'C) Testes de usabilidade/portabilidade/segurança e regressivos',
           'pontuacao': 0
         },
       ]
@@ -49,26 +49,26 @@ class _QuestionsState extends State<Questions> {
     {
       'texto': '"Ação humana que produz um resultado incorreto", é um(a) ...?',
       'respostas': [
-        {'texto': 'defeito', 'pontuacao': 0},
-        {'texto': 'erro', 'pontuacao': 1},
-        {'texto': 'falha', 'pontuacao': 0},
+        {'texto': 'A) defeito', 'pontuacao': 0},
+        {'texto': 'B) erro', 'pontuacao': 1},
+        {'texto': 'C) falha', 'pontuacao': 0},
       ]
     },
     {
       'texto':
           'Um campo de entrada referente ao ano de aniversário aceita valores  de 1900 até 2004. Utilizando a análise do valor limite o teste usaria quais valores?',
       'respostas': [
-        {'texto': '1899, 1900, 1901,2003,2004,2005', 'pontuacao': 0},
-        {'texto': '0,1900,2004,2005', 'pontuacao': 0},
-        {'texto': '1899,1900,2004,2005', 'pontuacao': 1},
+        {'texto': 'A) 1899, 1900, 1901,2003,2004,2005', 'pontuacao': 0},
+        {'texto': 'B) 0,1900,2004,2005', 'pontuacao': 0},
+        {'texto': 'C) 1899,1900,2004,2005', 'pontuacao': 1},
       ]
     },
     {
       'texto': 'Quais tipos de testes devem ser automatizados?',
       'respostas': [
-        {'texto': 'Testes Regressivos', 'pontuacao': 1},
-        {'texto': 'Testes de layout', 'pontuacao': 0},
-        {'texto': 'Testes de portabilidade', 'pontuacao': 0},
+        {'texto': 'A) Testes Regressivos', 'pontuacao': 1},
+        {'texto': 'B) Testes de layout', 'pontuacao': 0},
+        {'texto': 'C) Testes de portabilidade', 'pontuacao': 0},
       ]
     }
   ];
