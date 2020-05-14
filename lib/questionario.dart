@@ -23,15 +23,18 @@ class Questionario extends StatelessWidget {
         ? perguntas[perguntaSelecionada]['respostas']
         : null;
 
-    return Column(
-      children: <Widget>[
-        Questao(perguntas[perguntaSelecionada]['texto']),
-        ...respostas.map((resp) => 
-            Resposta(
-              resp['texto'], 
-              () => quandoResponder(resp['pontuacao'])),
-          ).toList(),
-      ],
+    return Scaffold(
+      body: Column(
+        children: <Widget>[
+          Questao(perguntas[perguntaSelecionada]['texto']),
+          ...respostas
+              .map(
+                (resp) => Resposta(
+                    resp['texto'], () => quandoResponder(resp['pontuacao'])),
+              )
+              .toList(),
+        ],
+      ),
     );
   }
 }

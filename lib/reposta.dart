@@ -8,11 +8,20 @@ class Resposta extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      child: RaisedButton(
-        child: Text(texto),
-        onPressed: quandoSelecionado,
+    return Padding(
+      padding: const EdgeInsets.all(10),
+      child: Container(
+        width: double.infinity,
+        height: 50,
+        margin: EdgeInsets.only(top: 15),
+        child: RaisedButton(
+          child: Text(
+            texto,
+            style: TextStyle(color: Colors.white),
+          ),
+          onPressed: quandoSelecionado,
+          color: Colors.green,
+        ),
       ),
     );
   }
