@@ -4,13 +4,14 @@ class Resultado extends StatelessWidget {
   final int pontuacao;
   final void Function() quandoReiniciarQuestionario;
   final String name;
+  final int _perguntas;
 
-  Resultado(this.pontuacao, this.quandoReiniciarQuestionario, this.name);
+  Resultado(this.pontuacao, this.quandoReiniciarQuestionario, this.name, this._perguntas);
 
   String get fraseResultado {
     if (pontuacao > 4) {
       return 'Excelente!';
-    } else if (pontuacao > 1 && pontuacao < 5) {
+    } else if (pontuacao > 2 && pontuacao < 5) {
       return 'Parabéns, você foi bem nos testes!';
     } else {
       return 'Infelizmente você foi muito mal, estude um pouco e tente novamente';
@@ -37,6 +38,14 @@ class Resultado extends StatelessWidget {
                   padding: const EdgeInsets.all(20),
                   child: Text(
                     fraseResultado,
+                    style: TextStyle(fontSize: 26),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: Text(
+                    'Você acertou $pontuacao/$_perguntas',
                     style: TextStyle(fontSize: 26),
                     textAlign: TextAlign.center,
                   ),

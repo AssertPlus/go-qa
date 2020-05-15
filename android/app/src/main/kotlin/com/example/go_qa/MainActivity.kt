@@ -1,4 +1,4 @@
-package com.example.go_qa
+package br.com.goQa
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

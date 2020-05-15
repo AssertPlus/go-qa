@@ -113,7 +113,7 @@ class _QuestionsState extends State<Questions> {
                 perguntaSelecionada: _perguntaSelecionada,
                 quandoResponder: _responder,
               )
-            : Resultado(_pontuacaoTotal, _reiniciarQuestionario, widget.name),
+            : Resultado(_pontuacaoTotal, _reiniciarQuestionario, widget.name, _perguntas.length),
       ),
     );
   }
