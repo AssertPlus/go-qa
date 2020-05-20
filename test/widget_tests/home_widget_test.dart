@@ -84,7 +84,7 @@ void main() {
     expect(find.byKey(Key('start_button')), findsNothing);
   });
 
-  testWidgets('Responder as questões e visualizar o resultado',
+  testWidgets('Responder as questões e visualizar o resultado Excelente',
       (WidgetTester tester) async {
     NavigatorObserver mockObserver;
     mockObserver = MockNavigatorObserver();
