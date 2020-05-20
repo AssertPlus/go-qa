@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:go_qa/identificacao.dart';
 
 class Home extends StatelessWidget {
-
   void _initApp(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
@@ -15,41 +14,43 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Image.asset(
-            'assets/images/gok-logo.png',
-            height: 150,
-            width: double.infinity,
-            fit: BoxFit.fill,
-          ),
-          Text(
-            'Seu quiz de qualidade',
-            style: TextStyle(
-              fontSize: 20,
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.white,
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Image.asset(
+              'assets/images/gok-logo.png',
+              height: 150,
+              width: double.infinity,
+              fit: BoxFit.fill,
             ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          Container(
-            width: 250,
-            child: RaisedButton(
-              key: Key('init_button'),
-              onPressed: () => _initApp(context),
-              child: Text(
-                'Iniciar Quiz',
-                style: TextStyle(color: Colors.white, fontSize: 16),
+            Text(
+              'Seu quiz de qualidade',
+              style: TextStyle(
+                fontSize: 20,
               ),
-              color: Colors.green,
-              elevation: 4,
             ),
-          )
-        ],
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              width: 250,
+              child: RaisedButton(
+                key: Key('init_button'),
+                onPressed: () => _initApp(context),
+                child: Text(
+                  'Iniciar Quiz',
+                  style: TextStyle(color: Colors.white, fontSize: 16),
+                ),
+                color: Colors.green,
+                elevation: 4,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }

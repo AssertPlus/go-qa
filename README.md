@@ -1,16 +1,51 @@
-# go_qa
+# Go QA - Seu quiz de qualidade
 
-A new Flutter project.
+Um quiz simples com perguntas sobre qualidade e testes de software,
+utilizado para estudo de testes com dart e flutter dentro da [Go.K ](https://gok.digital/) :green_heart:
 
-## Getting Started
+# Configurando o ambiente
 
-This project is a starting point for a Flutter application.
+## Pré-requisito
 
-A few resources to get you started if this is your first Flutter project:
+- **Android Studio**: Segundo a própria documentação oficial do Flutter, 
+ele depende de uma instalação completa do Android Studio para fornecer suas dependências 
+da plataforma Android. No entanto, você pode escrever seus aplicativos 
+Flutter em vários editores como por exemplo o Visual Studio CODE do qual falaremos mais adiante.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Instalações
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Instalando o Android Studio**
+
+Faça o download do pacote de instalação oficial em: 
+https://developer.android.com/studio/?hl=pt-pt
+
+### **Instalando o Flutter**
+
+Para instalar o flutter vamos ao site oficial da ferramento no link:
+https://flutter.dev/docs/get-started/install
+
+
+## **Configurando as variáveis de ambiente**
+
+### **No macOS**
+Acesse o arquivo *.bash_profile*, *.bashrc* ou *.zshrc* e adicione as seguintes linhas ao seu path:
+
+export PATH=$PATH:/Users/<seunome>/devlopment/flutter/bin
+
+export PATH=$PATH:/Users/<seunome>/devlopment/flutter/bin/cache/dart-sdk/bin
+
+Feche o arquivo, abra o terminal e execute o comando *flutter --version*, a saida deve ser algo como:
+
+![](imgs/flutter-version.png)
+
+
+
+Agora, execute o *flutter-doctor* :
+
+![](imgs/gif-flutter-doctor.gif)
+
+*O **flutter doctor** é o comando responsável por verificar se existem dependências do Flutter 
+a serem instaladas. Além disso, ele retorna um relatório sobre o status da instalação 
+contendo as dependências que faltam, como instalá-las, 
+problemas encontrados e como resolvê-los.*
+
