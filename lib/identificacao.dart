@@ -3,6 +3,8 @@ import 'package:go_qa/questions.dart';
 
 class Identificacao extends StatelessWidget {
   final nameController = TextEditingController();
+  static const Key start_button = Key('start_button');
+  static const Key text_field_name = Key('text_field_name');
 
   void _startApp(BuildContext context) {
     Navigator.of(context).push(
@@ -31,7 +33,7 @@ class Identificacao extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               TextField(
-                key: Key('text_field_name'),
+                key: text_field_name,
                 decoration: InputDecoration(
                     labelText: 'Preencha seu nome',
                     labelStyle: TextStyle(
@@ -50,7 +52,7 @@ class Identificacao extends StatelessWidget {
                 width: 200,
                 margin: EdgeInsets.only(top: 50),
                 child: RaisedButton(
-                  key: Key('start_button'),
+                  key: start_button,
                   onPressed: () =>
                       nameController.text != '' ? _startApp(context) : null,
                   child: Text(

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_qa/identificacao.dart';
 
 class Home extends StatelessWidget {
-  
+  static const Key init_button = Key('init_button');
+
   void _initApp(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
@@ -15,18 +16,19 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Colors.white,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Image.asset(
-              'assets/images/gok-logo.png',
+          children: [
+            Container(
               height: 150,
-              width: double.infinity,
-              fit: BoxFit.fill,
+              width: 350,
+              child: Image.asset(
+                'assets/images/gok-logo.png',
+                fit: BoxFit.fill,
+              ),
             ),
             Text(
               'Seu quiz de qualidade',
@@ -40,7 +42,7 @@ class Home extends StatelessWidget {
             Container(
               width: 250,
               child: RaisedButton(
-                key: Key('init_button'),
+                key: init_button,
                 onPressed: () => _initApp(context),
                 child: Text(
                   'Iniciar Quiz',
@@ -52,7 +54,6 @@ class Home extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      );
   }
 }
