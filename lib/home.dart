@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_qa/identificacao.dart';
 
 class Home extends StatelessWidget {
+  
   void _initApp(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(

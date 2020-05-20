@@ -8,8 +8,8 @@ class Resultado extends StatelessWidget {
 
   Resultado(this.pontuacao, this.quandoReiniciarQuestionario, this.name, this._perguntas);
 
-  String get fraseResultado {
-    if (pontuacao > 4) {
+  static String fraseResultado(pontuacao) {
+    if (pontuacao == 5) {
       return 'Excelente!';
     } else if (pontuacao > 2 && pontuacao < 5) {
       return 'Parabéns, você foi bem nos testes!';
@@ -37,7 +37,7 @@ class Resultado extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(20),
                   child: Text(
-                    fraseResultado,
+                    fraseResultado(pontuacao),
                     style: TextStyle(fontSize: 26),
                     textAlign: TextAlign.center,
                     key: Key('text_result'),
