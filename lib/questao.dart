@@ -16,6 +16,7 @@ class Questao extends StatelessWidget {
           fontSize: 26,
         ),
         textAlign: TextAlign.center,
+        key: Key('text_ask'),
       ),
     );
   }

@@ -37,9 +37,9 @@ class Home extends StatelessWidget {
             height: 30,
           ),
           Container(
-            width: 220,
+            width: 250,
             child: RaisedButton(
-              key: Key('button'),
+              key: Key('init_button'),
               onPressed: () => _initApp(context),
               child: Text(
                 'Iniciar Quiz',

@@ -31,6 +31,7 @@ class Identificacao extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               TextField(
+                key: Key('text_field_name'),
                 decoration: InputDecoration(
                     labelText: 'Preencha seu nome',
                     labelStyle: TextStyle(
@@ -49,6 +50,7 @@ class Identificacao extends StatelessWidget {
                 width: 200,
                 margin: EdgeInsets.only(top: 50),
                 child: RaisedButton(
+                  key: Key('start_button'),
                   onPressed: () =>
                       nameController.text != '' ? _startApp(context) : null,
                   child: Text(

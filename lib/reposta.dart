@@ -21,6 +21,7 @@ class Resposta extends StatelessWidget {
           ),
           onPressed: quandoSelecionado,
           color: Colors.green,
+          key: Key('text_answer'),
         ),
       ),
     );

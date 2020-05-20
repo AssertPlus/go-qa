@@ -40,6 +40,7 @@ class Resultado extends StatelessWidget {
                     fraseResultado,
                     style: TextStyle(fontSize: 26),
                     textAlign: TextAlign.center,
+                    key: Key('text_result'),
                   ),
                 ),
                 Padding(
@@ -48,6 +49,7 @@ class Resultado extends StatelessWidget {
                     'Você acertou $pontuacao/$_perguntas',
                     style: TextStyle(fontSize: 26),
                     textAlign: TextAlign.center,
+                    key: Key('text_quantity'),
                   ),
                 )
               ],
@@ -63,6 +65,7 @@ class Resultado extends StatelessWidget {
             ),
             textColor: Colors.blue,
             onPressed: quandoReiniciarQuestionario,
+            key: Key('restart_button'),
           )
         ],
       ),
