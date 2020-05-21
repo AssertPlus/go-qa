@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
           children: [
             Container(
               height: 150,
-              width: 350,
+              width: double.infinity,
               child: Image.asset(
                 'assets/images/gok-logo.png',
                 fit: BoxFit.fill,
