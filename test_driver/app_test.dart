@@ -28,6 +28,7 @@ void main() {
     }
   });
 
+  //Método para tirar screenshot
   takeScreenshot(FlutterDriver driver, String name) async {
     final List<int> pixels = await driver.screenshot();
     final File file = new File("test_driver/screenshots/$name.png");
@@ -67,7 +68,10 @@ void main() {
     //Escolher a resposta da questão 5
     await driver.tap(answer5);
 
+    //Tira print da tela de resultado
     await takeScreenshot(driver, "teste_integrado");
+
+    //Verifica se apareceu o texto esperado
     expect(await driver.getText(textResult), correctAnswerText);
   });
 }
