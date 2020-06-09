@@ -109,6 +109,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_gherkin:
+    dependency: "direct main"
+    description:
+      name: flutter_gherkin
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.8+2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -119,6 +126,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  gherkin:
+    dependency: transitive
+    description:
+      name: gherkin
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.8+1"
   glob:
     dependency: transitive
     description:
@@ -497,3 +511,4 @@ packages:
     version: "2.2.1"
 sdks:
   dart: ">=2.7.0 <3.0.0"
+  flutter: ">=1.13.0"

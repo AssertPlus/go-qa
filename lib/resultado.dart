@@ -7,6 +7,7 @@ class Resultado extends StatelessWidget {
   final int _perguntas;
 
   static const Key text_result = Key('text_result');
+  static const Key text_name = Key('text_name');
 
   Resultado(this.pontuacao, this.quandoReiniciarQuestionario, this.name, this._perguntas);
 
@@ -34,6 +35,7 @@ class Resultado extends StatelessWidget {
                   child: Text(
                     name,
                     style: TextStyle(fontSize: 26),
+                    key: text_name,
                   ),
                 ),
                 Padding(

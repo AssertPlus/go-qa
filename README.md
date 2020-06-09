@@ -117,24 +117,6 @@ No vscode acesse a opção Run > Run Without Debugging > selecione o device iOS 
 ![](imgs/exec-ios.gif)
 
 
-## Executando os testes
 
-### Testes unitários  
-No vscode acesse o diretório **_tests/unit_testes/_** e abra o arquivo **_pontuacao_test.dart_**  
-Em cada método tem o comando *Run* e *Debug*  
-
-Click em **_Run_** no teste específico para executar um único teste ou no main para rodar todos os testes
-
-![](imgs/test-vscode.png)  
-
-E a saida deve ser algo como:  
-
-![](imgs/test-result.png) 
-
-
-### Testes de Widget  
-No vscode acesse o diretório **_tests/widget_tests/_** e abra o arquivo **_home_widget_test.dart_**  
-E semelhante aos testes unitários cada método tem o comando *Run* e *Debug*, para executar seguimos o mesmo passo a passo  
-
-
-  
+### Testes no Flutter
+[Vamos falar de testes ?](https://github.com/jhowsantos/go-qa/blob/bdd_with_flutter/TESTS.md)
