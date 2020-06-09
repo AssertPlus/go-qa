@@ -1,0 +1,366 @@
+[
+  {
+    "description": "",
+    "id": "responder o questionario",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Responder o questionario",
+    "uri": "./test_driver/features/responder_questionario.feature",
+    "elements": [
+      {
+        "keyword": "Scenario Outline",
+        "type": "scenario",
+        "id": "responder o questionario;visualizar mensagem ao responder todas as questões (example 1)",
+        "name": "Visualizar mensagem ao responder todas as questões (Example 1)",
+        "description": "",
+        "line": 8,
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário inicia o quiz",
+            "line": 9,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "preencher o nome 'Jhonatas Matos' tocando em começar",
+            "line": 10,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'A) Teste baseado na análise da estrutura interna de um componente ou sistema'",
+            "line": 11,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) Testes de desempenho/performance/usabilidade e segurança'",
+            "line": 12,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) erro'",
+            "line": 13,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'C) 1899,1900,2004,2005'",
+            "line": 14,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "escolher a ultima resposta 'A) Testes Regressivos'",
+            "line": 15,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deve visualizar o nome 'Jhonatas Matos'",
+            "line": 16,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "o texto 'Excelente!'",
+            "line": 17,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "type": "scenario",
+        "id": "responder o questionario;visualizar mensagem ao responder todas as questões (example 2)",
+        "name": "Visualizar mensagem ao responder todas as questões (Example 2)",
+        "description": "",
+        "line": 8,
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário inicia o quiz",
+            "line": 9,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "preencher o nome 'João Pedro' tocando em começar",
+            "line": 10,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) Teste funcional ou não funcional sem referencia a estrutura interna do componente'",
+            "line": 11,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'A) Testes de desempenho/integração/usabilidade e unidade'",
+            "line": 12,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'C) falha'",
+            "line": 13,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) 0,1900,2004,2005'",
+            "line": 14,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "escolher a ultima resposta 'B) Testes de layout'",
+            "line": 15,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deve visualizar o nome 'João Pedro'",
+            "line": 16,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "o texto 'Infelizmente você foi muito mal, estude um pouco e tente novamente'",
+            "line": 17,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "type": "scenario",
+        "id": "responder o questionario;visualizar mensagem ao responder todas as questões (example 3)",
+        "name": "Visualizar mensagem ao responder todas as questões (Example 3)",
+        "description": "",
+        "line": 8,
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário inicia o quiz",
+            "line": 9,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "preencher o nome 'Fabio Santos' tocando em começar",
+            "line": 10,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'A) Teste baseado na análise da estrutura interna de um componente ou sistema'",
+            "line": 11,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) Testes de desempenho/performance/usabilidade e segurança'",
+            "line": 12,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) erro'",
+            "line": 13,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher a resposta 'B) 0,1900,2004,2005'",
+            "line": 14,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "escolher a ultima resposta 'A) Testes Regressivos'",
+            "line": 15,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deve visualizar o nome 'Fabio Santos'",
+            "line": 16,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "o texto 'Parabéns, você foi bem nos testes!'",
+            "line": 17,
+            "match": {
+              "location": "./test_driver/features/responder_questionario.feature:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
