@@ -119,4 +119,4 @@ No vscode acesse a opção Run > Run Without Debugging > selecione o device iOS 
 
 
 # Testes no Flutter
-[Vamos falar de testes ?](https://github.com/jhowsantos/go-qa/blob/bdd_with_flutter/TESTS.md)
+[Vamos falar de testes ?](https://github.com/jhowsantos/go-qa/blob/master/TESTS.md)
